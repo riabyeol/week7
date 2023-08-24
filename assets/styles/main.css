@@ -1,0 +1,52 @@
+/* font styles */
+@font-face {
+  font-family: "Dela Gothic One";
+  src: url("/fonts/DelaGothicOne-Regular.woff2") format("woff2"),
+    url("/fonts/DelaGothicOne-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-ThinItalic.woff2") format("woff2"),
+    url("/fonts/Montserrat-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Thin.woff2") format("woff2"),
+    url("/fonts/Montserrat-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* header */
+header {
+  display: grid;
+  grid-template-columns: 1fr 2px 1fr 1fr;
+}
+.name {
+  color: #000;
+  font-weight: bolder;
+}
+ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px;
+  list-style: none;
+}
+.button {
+  display: flex;
+  padding: 11px 18px;
+  align-items: flex-start;
+  gap: 10px;
+}
+.sighup {
+  border-radius: 12px;
+  background: #2b788b;
+}
